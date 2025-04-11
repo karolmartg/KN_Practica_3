@@ -30,7 +30,7 @@
         <nav class="app-header navbar navbar-expand bg-body">
 
             <!--begin::Container-->
-            <div class="container-fluid" style="justify-content: normal !important";">
+            <div class="container-fluid" style="justify-content: normal !important" ;">
 
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -46,7 +46,6 @@
             <!--end::Container-->
         </nav>
         <!--end::Header-->
-        
         <!--begin::Sidebar-->
         <aside class="app-sidebar bg-dark" data-bs-theme="dark">
             <!--begin::Sidebar Brand-->
@@ -58,7 +57,6 @@
                          alt="AdminLTE Logo"
                          class="brand-image opacity-75 shadow" />
                     <!--end::Brand Image-->
-
                     <!--begin::Brand Text-->
                     <span class="brand-text fw-light">Admin Abonos</span>
                     <!--end::Brand Text-->
@@ -66,7 +64,6 @@
                 <!--end::Brand Link-->
             </div>
             <!--end::Sidebar Brand-->
-
             <!--begin::Sidebar Wrapper-->
             <div class="sidebar-wrapper">
                 <nav class="mt-2">
@@ -102,7 +99,6 @@
             <!--end::Sidebar Wrapper-->
         </aside>
         <!--end::Sidebar-->
-
         <!--begin::App Main-->
         <main class="app-main">
             <div class="m-3">
@@ -110,7 +106,6 @@
             </div>
         </main>
         <!--end::App Main-->
-        
         <!--begin::Footer-->
         <footer class="app-footer">
             <!--begin::To the end-->
@@ -130,5 +125,6 @@
     <!--begin::Script-->
     <script src="~/Template/js/adminlte.js"></script>
     <!--end::Script-->
+    @RenderSection("Scripts", required: false)
 </body>
 </html>

@@ -40,17 +40,5 @@
       <End Role="Principal" EntitySet="Principal" />
       <End Role="Abonos" EntitySet="Abonos" />
     </AssociationSet>
-    <FunctionImport Name="SP_Abonar_Saldo">
-      <Parameter Name="Id_Compra" Mode="In" Type="Int64" />
-      <Parameter Name="abono" Mode="In" Type="Decimal" />
-    </FunctionImport>
-    <FunctionImport Name="SP_Buscar_Producto" ReturnType="Collection(Decimal)">
-      <Parameter Name="Id_Compra" Mode="In" Type="Int64" />
-    </FunctionImport>
-    <FunctionImport Name="SP_Listar_Compras" ReturnType="Collection(PracticaS12Model.SP_Listar_Compras_Result)" />
   </EntityContainer>
-  <ComplexType Name="SP_Listar_Compras_Result">
-    <Property Type="Int64" Name="Id_Compra" Nullable="false" />
-    <Property Type="String" Name="Descripcion" Nullable="false" MaxLength="500" />
-  </ComplexType>
 </Schema>

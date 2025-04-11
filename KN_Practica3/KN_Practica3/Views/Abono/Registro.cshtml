@@ -1,8 +1,54 @@
-﻿
+﻿@model KN_Practica3.BaseDatos.Abonos
 @{
-    ViewBag.Title = "Registro";
-    ViewBag.OpcionActiva = "Registrar Abono";
+    ViewBag.Title = "Registro de Abono";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Registro</h2>
+<h2>Registro de Abono</h2>
 
+@using (Html.BeginForm("Registro", "Abono", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Id_Compra, "Compra")
+        @Html.DropDownListFor(m => m.Id_Compra,
+            (SelectList)ViewBag.ComprasPendientes,
+            "-- Seleccione una compra --",
+            new { @class = "form-control", id = "compraDropdown" })
+        @Html.ValidationMessageFor(m => m.Id_Compra, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        <label>Saldo Anterior</label>
+        <input type="text" id="saldoAnterior" class="form-control" readonly />
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Monto, "Monto del Abono")
+        @Html.TextBoxFor(m => m.Monto, new { @class = "form-control", type = "number", step = "0.01" })
+        @Html.ValidationMessageFor(m => m.Monto, "", new { @class = "text-danger" })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Registrar</button>
+}
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $('#compraDropdown').change(function () {
+            var idCompra = $(this).val();
+            if (idCompra) {
+                $.ajax({
+                    url: '/Abono/ObtenerSaldo/' + idCompra,
+                    type: 'GET',
+                    success: function (saldo) {
+                        $('#saldoAnterior').val(saldo.toFixed(2));
+                    }
+                });
+            } else {
+                $('#saldoAnterior').val('');
+            }
+        });
+    </script>
+}

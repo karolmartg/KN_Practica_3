@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Universidad\\13r Cuatrimestre\\Programaci\u00F3n Avanzada\\Caso Estudio\\1\\KN_Practica3\\",
+  "WorkspaceRootPath": "C:\\progra avanzada clase\\KN_Practica_3\\KN_Practica3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3FA3D14A-6BD7-416B-A373-6444EF015748}|KN_Practica3\\KN_Practica3.csproj|d:\\universidad\\13r cuatrimestre\\programaci\u00F3n avanzada\\caso estudio\\1\\kn_practica3\\kn_practica3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FA3D14A-6BD7-416B-A373-6444EF015748}|KN_Practica3\\KN_Practica3.csproj|solutionrelative:kn_practica3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FA3D14A-6BD7-416B-A373-6444EF015748}|KN_Practica3\\KN_Practica3.csproj|c:\\progra avanzada clase\\kn_practica_3\\kn_practica3\\kn_practica3\\views\\abono\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FA3D14A-6BD7-416B-A373-6444EF015748}|KN_Practica3\\KN_Practica3.csproj|solutionrelative:kn_practica3\\views\\abono\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FA3D14A-6BD7-416B-A373-6444EF015748}|KN_Practica3\\KN_Practica3.csproj|D:\\Universidad\\13r Cuatrimestre\\Programaci\u00F3n Avanzada\\Caso Estudio\\1\\KN_Practica3\\kn_practica3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3FA3D14A-6BD7-416B-A373-6444EF015748}|KN_Practica3\\KN_Practica3.csproj|C:\\progra avanzada clase\\KN_Practica_3\\KN_Practica3\\kn_practica3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3FA3D14A-6BD7-416B-A373-6444EF015748}|KN_Practica3\\KN_Practica3.csproj|solutionrelative:kn_practica3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA3D14A-6BD7-416B-A373-6444EF015748}|KN_Practica3\\KN_Practica3.csproj|c:\\progra avanzada clase\\kn_practica_3\\kn_practica3\\kn_practica3\\controllers\\abonocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA3D14A-6BD7-416B-A373-6444EF015748}|KN_Practica3\\KN_Practica3.csproj|solutionrelative:kn_practica3\\controllers\\abonocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA3D14A-6BD7-416B-A373-6444EF015748}|KN_Practica3\\KN_Practica3.csproj|c:\\progra avanzada clase\\kn_practica_3\\kn_practica3\\kn_practica3\\models\\abono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA3D14A-6BD7-416B-A373-6444EF015748}|KN_Practica3\\KN_Practica3.csproj|solutionrelative:kn_practica3\\models\\abono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA3D14A-6BD7-416B-A373-6444EF015748}|KN_Practica3\\KN_Practica3.csproj|c:\\progra avanzada clase\\kn_practica_3\\kn_practica3\\kn_practica3\\models\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA3D14A-6BD7-416B-A373-6444EF015748}|KN_Practica3\\KN_Practica3.csproj|solutionrelative:kn_practica3\\models\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,36 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Universidad\\13r Cuatrimestre\\Programaci\u00F3n Avanzada\\Caso Estudio\\1\\KN_Practica3\\KN_Practica3\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\progra avanzada clase\\KN_Practica_3\\KN_Practica3\\KN_Practica3\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "KN_Practica3\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Universidad\\13r Cuatrimestre\\Programaci\u00F3n Avanzada\\Caso Estudio\\1\\KN_Practica3\\KN_Practica3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\progra avanzada clase\\KN_Practica_3\\KN_Practica3\\KN_Practica3\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "KN_Practica3\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEwAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-10T05:08:03.706Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Universidad\\13r Cuatrimestre\\Programaci\u00F3n Avanzada\\Caso Estudio\\1\\KN_Practica3\\KN_Practica3\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "KN_Practica3\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Universidad\\13r Cuatrimestre\\Programaci\u00F3n Avanzada\\Caso Estudio\\1\\KN_Practica3\\KN_Practica3\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "KN_Practica3\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Title": "Registro.cshtml",
+              "DocumentMoniker": "C:\\progra avanzada clase\\KN_Practica_3\\KN_Practica3\\KN_Practica3\\Views\\Abono\\Registro.cshtml",
+              "RelativeDocumentMoniker": "KN_Practica3\\Views\\Abono\\Registro.cshtml",
+              "ToolTip": "C:\\progra avanzada clase\\KN_Practica_3\\KN_Practica3\\KN_Practica3\\Views\\Abono\\Registro.cshtml",
+              "RelativeToolTip": "KN_Practica3\\Views\\Abono\\Registro.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T02:33:01.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Principal.cs",
+              "DocumentMoniker": "C:\\progra avanzada clase\\KN_Practica_3\\KN_Practica3\\KN_Practica3\\Models\\Principal.cs",
+              "RelativeDocumentMoniker": "KN_Practica3\\Models\\Principal.cs",
+              "ToolTip": "C:\\progra avanzada clase\\KN_Practica_3\\KN_Practica3\\KN_Practica3\\Models\\Principal.cs",
+              "RelativeToolTip": "KN_Practica3\\Models\\Principal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T04:59:18.999Z",
+              "WhenOpened": "2025-04-11T02:01:26.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Abono.cs",
+              "DocumentMoniker": "C:\\progra avanzada clase\\KN_Practica_3\\KN_Practica3\\KN_Practica3\\Models\\Abono.cs",
+              "RelativeDocumentMoniker": "KN_Practica3\\Models\\Abono.cs",
+              "ToolTip": "C:\\progra avanzada clase\\KN_Practica_3\\KN_Practica3\\KN_Practica3\\Models\\Abono.cs",
+              "RelativeToolTip": "KN_Practica3\\Models\\Abono.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T01:16:09.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AbonoController.cs",
+              "DocumentMoniker": "C:\\progra avanzada clase\\KN_Practica_3\\KN_Practica3\\KN_Practica3\\Controllers\\AbonoController.cs",
+              "RelativeDocumentMoniker": "KN_Practica3\\Controllers\\AbonoController.cs",
+              "ToolTip": "C:\\progra avanzada clase\\KN_Practica_3\\KN_Practica3\\KN_Practica3\\Controllers\\AbonoController.cs",
+              "RelativeToolTip": "KN_Practica3\\Controllers\\AbonoController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T01:16:07.856Z",
               "EditorCaption": ""
             }
           ]
