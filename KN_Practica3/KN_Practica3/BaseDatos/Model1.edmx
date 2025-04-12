@@ -43,10 +43,7 @@
         <Function Name="SP_Buscar_Producto" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="Id_Compra" Type="bigint" Mode="In" />
         </Function>
-<<<<<<< Updated upstream
         <Function Name="SP_Consultar_Producto" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
-=======
->>>>>>> Stashed changes
         <Function Name="SP_Listar_Compras" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
         <EntityContainer Name="PracticaS12ModelStoreContainer">
           <EntitySet Name="Abonos" EntityType="Self.Abonos" Schema="dbo" store:Type="Tables" />
@@ -108,7 +105,6 @@
           <FunctionImport Name="SP_Buscar_Producto" ReturnType="Collection(Decimal)">
             <Parameter Name="Id_Compra" Mode="In" Type="Int64" />
           </FunctionImport>
-<<<<<<< Updated upstream
           <FunctionImport Name="SP_Consultar_Producto" ReturnType="Collection(PracticaS12Model.SP_Consultar_Producto_Result)" />
           <FunctionImport Name="SP_Listar_Compras" ReturnType="Collection(PracticaS12Model.SP_Listar_Compras_Result)" />
         </EntityContainer>
@@ -119,10 +115,6 @@
           <Property Type="String" Name="Descripcion" Nullable="false" MaxLength="500" />
           <Property Type="String" Name="Estado" Nullable="false" MaxLength="100" />
         </ComplexType>
-=======
-          <FunctionImport Name="SP_Listar_Compras" ReturnType="Collection(PracticaS12Model.SP_Listar_Compras_Result)" />
-        </EntityContainer>
->>>>>>> Stashed changes
         <ComplexType Name="SP_Listar_Compras_Result">
           <Property Type="Int64" Name="Id_Compra" Nullable="false" />
           <Property Type="String" Name="Descripcion" Nullable="false" MaxLength="500" />
@@ -156,7 +148,6 @@
           </EntitySetMapping>
           <FunctionImportMapping FunctionImportName="SP_Abonar_Saldo" FunctionName="PracticaS12Model.Store.SP_Abonar_Saldo" />
           <FunctionImportMapping FunctionImportName="SP_Buscar_Producto" FunctionName="PracticaS12Model.Store.SP_Buscar_Producto" />
-<<<<<<< Updated upstream
           <FunctionImportMapping FunctionImportName="SP_Consultar_Producto" FunctionName="PracticaS12Model.Store.SP_Consultar_Producto">
             <ResultMapping>
               <ComplexTypeMapping TypeName="PracticaS12Model.SP_Consultar_Producto_Result">
@@ -168,8 +159,6 @@
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>
-=======
->>>>>>> Stashed changes
           <FunctionImportMapping FunctionImportName="SP_Listar_Compras" FunctionName="PracticaS12Model.Store.SP_Listar_Compras">
             <ResultMapping>
               <ComplexTypeMapping TypeName="PracticaS12Model.SP_Listar_Compras_Result">

@@ -4,11 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-<<<<<<< Updated upstream
-      <Diagram DiagramId="ae75a96fae7f454889da8dc5270e06a8" Name="Diagram1">
-=======
-      <Diagram DiagramId="4dcd1dbb7a8f47d895409ea4cd1986fd" Name="Diagram1">
->>>>>>> Stashed changes
+      <Diagram DiagramId="d70e307b8d554afab96f6660d9e36bde" Name="Diagram1">
         <EntityTypeShape EntityType="PracticaS12Model.Abonos" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
         <EntityTypeShape EntityType="PracticaS12Model.Principal" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
         <AssociationConnector Association="PracticaS12Model.FK_Abonos_Principal" ManuallyRouted="false" />

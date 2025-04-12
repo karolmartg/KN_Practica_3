@@ -52,14 +52,11 @@ namespace KN_Practica3.BaseDatos
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Nullable<decimal>>("SP_Buscar_Producto", id_CompraParameter);
         }
     
-<<<<<<< Updated upstream
         public virtual ObjectResult<SP_Consultar_Producto_Result> SP_Consultar_Producto()
         {
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<SP_Consultar_Producto_Result>("SP_Consultar_Producto");
         }
     
-=======
->>>>>>> Stashed changes
         public virtual ObjectResult<SP_Listar_Compras_Result> SP_Listar_Compras()
         {
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<SP_Listar_Compras_Result>("SP_Listar_Compras");
