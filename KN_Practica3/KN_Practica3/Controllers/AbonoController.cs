@@ -16,6 +16,12 @@ namespace KN_Practica3.Controllers
             ViewBag.ComprasPendientes = new SelectList(db.Principal
                 .Where(p => p.Estado == "Pendiente").ToList(), "Id_Compra", "Descripcion");
 
+            // Pasar el mensaje de TempData a ViewBag si existe
+            if (TempData["Error"] != null)
+            {
+                ViewBag.Error = TempData["Error"];
+            }
+
             return View();
         }
 
@@ -34,12 +40,17 @@ namespace KN_Practica3.Controllers
 
                     if (compra.Saldo <= 0)
                     {
-                        compra.Estado = "Pagado";
+                        compra.Estado = "Cancelado";
                     }
 
                     db.Abonos.Add(abono);
                     db.SaveChanges();
 
+                    return RedirectToAction("Registro");
+                }
+                else
+                {
+                    TempData["Error"] = "El monto del Abono NO puede ser mayor al Saldo Anterior";
                     return RedirectToAction("Registro");
                 }
             }

@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "WorkspaceRootPath": "C:\\Users\\juanp\\Pictures\\GITHUB\\CLASE\\KN_Practica_3\\KN_Practica3\\",
   "Documents": [
     {
@@ -37,6 +38,21 @@
     {
       "AbsoluteMoniker": "D:0:0:{3FA3D14A-6BD7-416B-A373-6444EF015748}|KN_Practica3\\KN_Practica3.csproj|C:\\Users\\juanp\\Pictures\\GITHUB\\CLASE\\KN_Practica_3\\KN_Practica3\\kn_practica3\\models\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FA3D14A-6BD7-416B-A373-6444EF015748}|KN_Practica3\\KN_Practica3.csproj|solutionrelative:kn_practica3\\models\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "D:\\Universidad\\13r Cuatrimestre\\Programaci\u00F3n Avanzada\\Practicas\\3\\KN_Practica_3\\KN_Practica3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA3D14A-6BD7-416B-A373-6444EF015748}|KN_Practica3\\KN_Practica3.csproj|D:\\Universidad\\13r Cuatrimestre\\Programaci\u00F3n Avanzada\\Practicas\\3\\KN_Practica_3\\KN_Practica3\\kn_practica3\\controllers\\abonocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA3D14A-6BD7-416B-A373-6444EF015748}|KN_Practica3\\KN_Practica3.csproj|solutionrelative:kn_practica3\\controllers\\abonocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA3D14A-6BD7-416B-A373-6444EF015748}|KN_Practica3\\KN_Practica3.csproj|d:\\universidad\\13r cuatrimestre\\programaci\u00F3n avanzada\\practicas\\3\\kn_practica_3\\kn_practica3\\kn_practica3\\views\\abono\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FA3D14A-6BD7-416B-A373-6444EF015748}|KN_Practica3\\KN_Practica3.csproj|solutionrelative:kn_practica3\\views\\abono\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA3D14A-6BD7-416B-A373-6444EF015748}|KN_Practica3\\KN_Practica3.csproj|D:\\Universidad\\13r Cuatrimestre\\Programaci\u00F3n Avanzada\\Practicas\\3\\KN_Practica_3\\KN_Practica3\\kn_practica3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FA3D14A-6BD7-416B-A373-6444EF015748}|KN_Practica3\\KN_Practica3.csproj|solutionrelative:kn_practica3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -46,6 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 5,
           "Children": [
             {
@@ -55,8 +72,19 @@
               "DocumentMoniker": "C:\\Users\\juanp\\Pictures\\GITHUB\\CLASE\\KN_Practica_3\\KN_Practica3\\KN_Practica3\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "KN_Practica3\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\juanp\\Pictures\\GITHUB\\CLASE\\KN_Practica_3\\KN_Practica3\\KN_Practica3\\Views\\Shared\\_Layout.cshtml",
+=======
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Universidad\\13r Cuatrimestre\\Programaci\u00F3n Avanzada\\Practicas\\3\\KN_Practica_3\\KN_Practica3\\KN_Practica3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "KN_Practica3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Universidad\\13r Cuatrimestre\\Programaci\u00F3n Avanzada\\Practicas\\3\\KN_Practica_3\\KN_Practica3\\KN_Practica3\\Views\\Shared\\_Layout.cshtml",
+>>>>>>> Stashed changes
               "RelativeToolTip": "KN_Practica3\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-10T05:08:03.706Z",
               "IsPinned": true,
@@ -68,6 +96,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 2,
               "Title": "Model1.edmx [Diagram1]",
               "DocumentMoniker": "C:\\Users\\juanp\\Pictures\\GITHUB\\CLASE\\KN_Practica_3\\KN_Practica3\\KN_Practica3\\BaseDatos\\Model1.edmx",
@@ -102,11 +131,23 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T01:43:04.324Z",
+=======
+              "DocumentIndex": 1,
+              "Title": "Registro.cshtml",
+              "DocumentMoniker": "D:\\Universidad\\13r Cuatrimestre\\Programaci\u00F3n Avanzada\\Practicas\\3\\KN_Practica_3\\KN_Practica3\\KN_Practica3\\Views\\Abono\\Registro.cshtml",
+              "RelativeDocumentMoniker": "KN_Practica3\\Views\\Abono\\Registro.cshtml",
+              "ToolTip": "D:\\Universidad\\13r Cuatrimestre\\Programaci\u00F3n Avanzada\\Practicas\\3\\KN_Practica_3\\KN_Practica3\\KN_Practica3\\Views\\Abono\\Registro.cshtml",
+              "RelativeToolTip": "KN_Practica3\\Views\\Abono\\Registro.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T01:31:07.009Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< Updated upstream
               "Title": "Consulta.cshtml",
               "DocumentMoniker": "C:\\Users\\juanp\\Pictures\\GITHUB\\CLASE\\KN_Practica_3\\KN_Practica3\\KN_Practica3\\Views\\Principal\\Consulta.cshtml",
               "RelativeDocumentMoniker": "KN_Practica3\\Views\\Principal\\Consulta.cshtml",
@@ -163,8 +204,14 @@
               "DocumentMoniker": "C:\\Users\\juanp\\Pictures\\GITHUB\\CLASE\\KN_Practica_3\\KN_Practica3\\KN_Practica3\\Controllers\\AbonoController.cs",
               "RelativeDocumentMoniker": "KN_Practica3\\Controllers\\AbonoController.cs",
               "ToolTip": "C:\\Users\\juanp\\Pictures\\GITHUB\\CLASE\\KN_Practica_3\\KN_Practica3\\KN_Practica3\\Controllers\\AbonoController.cs",
+=======
+              "Title": "AbonoController.cs",
+              "DocumentMoniker": "D:\\Universidad\\13r Cuatrimestre\\Programaci\u00F3n Avanzada\\Practicas\\3\\KN_Practica_3\\KN_Practica3\\KN_Practica3\\Controllers\\AbonoController.cs",
+              "RelativeDocumentMoniker": "KN_Practica3\\Controllers\\AbonoController.cs",
+              "ToolTip": "D:\\Universidad\\13r Cuatrimestre\\Programaci\u00F3n Avanzada\\Practicas\\3\\KN_Practica_3\\KN_Practica3\\KN_Practica3\\Controllers\\AbonoController.cs",
+>>>>>>> Stashed changes
               "RelativeToolTip": "KN_Practica3\\Controllers\\AbonoController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCAAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwC4AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-11T01:16:07.856Z",
               "EditorCaption": ""

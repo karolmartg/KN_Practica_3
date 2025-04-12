@@ -10,6 +10,13 @@
 {
     @Html.AntiForgeryToken()
 
+    if (ViewBag.Error != null)
+    {
+        <div class="alert alert-warning msjCentrado">
+            @ViewBag.Error
+        </div>
+    }
+
     <div class="form-group">
         @Html.LabelFor(m => m.Id_Compra, "Compra")
         @Html.DropDownListFor(m => m.Id_Compra,
@@ -36,7 +43,7 @@
 @section Scripts {
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-        $('#compraDropdown').change(function () {
+        $('#compraDropdown').change(function (e) {
             var idCompra = $(this).val();
             if (idCompra) {
                 $.ajax({
