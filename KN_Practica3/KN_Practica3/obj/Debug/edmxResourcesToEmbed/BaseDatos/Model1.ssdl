@@ -31,6 +31,15 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Function Name="SP_Abonar_Saldo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id_Compra" Type="bigint" Mode="In" />
+    <Parameter Name="abono" Type="decimal" Mode="In" />
+  </Function>
+  <Function Name="SP_Buscar_Producto" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id_Compra" Type="bigint" Mode="In" />
+  </Function>
+  <Function Name="SP_Consultar_Producto" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="SP_Listar_Compras" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
   <EntityContainer Name="PracticaS12ModelStoreContainer">
     <EntitySet Name="Abonos" EntityType="Self.Abonos" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Principal" EntityType="Self.Principal" Schema="dbo" store:Type="Tables" />

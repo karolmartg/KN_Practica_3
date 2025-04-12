@@ -1,8 +1,32 @@
-﻿
+﻿@model List<KN_Practica3.BaseDatos.SP_Consultar_Producto_Result>
+
 @{
     ViewBag.Title = "Consulta";
     ViewBag.OpcionActiva = "Consulta";
 }
 
 <h2>Consulta</h2>
+<div class="table-responsive">
+    <table class="table table-striped table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Descripcion</th>
+                <th>Precio</th>
+                <th>Saldo</th>
+                <th>Estado</th>
 
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Descripcion</td>
+                    <td>@item.Precio</td>
+                    <td>@item.Saldo</td>
+                    <td>@item.Estado</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

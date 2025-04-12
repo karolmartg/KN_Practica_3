@@ -22,5 +22,26 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SP_Abonar_Saldo" FunctionName="PracticaS12Model.Store.SP_Abonar_Saldo" />
+    <FunctionImportMapping FunctionImportName="SP_Buscar_Producto" FunctionName="PracticaS12Model.Store.SP_Buscar_Producto" />
+    <FunctionImportMapping FunctionImportName="SP_Consultar_Producto" FunctionName="PracticaS12Model.Store.SP_Consultar_Producto">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PracticaS12Model.SP_Consultar_Producto_Result">
+          <ScalarProperty Name="Id_Compra" ColumnName="Id_Compra" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Saldo" ColumnName="Saldo" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_Listar_Compras" FunctionName="PracticaS12Model.Store.SP_Listar_Compras">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PracticaS12Model.SP_Listar_Compras_Result">
+          <ScalarProperty Name="Id_Compra" ColumnName="Id_Compra" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
   </EntityContainerMapping>
 </Mapping>

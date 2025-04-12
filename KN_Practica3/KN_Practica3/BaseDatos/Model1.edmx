@@ -36,6 +36,15 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Function Name="SP_Abonar_Saldo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Id_Compra" Type="bigint" Mode="In" />
+          <Parameter Name="abono" Type="decimal" Mode="In" />
+        </Function>
+        <Function Name="SP_Buscar_Producto" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Id_Compra" Type="bigint" Mode="In" />
+        </Function>
+        <Function Name="SP_Consultar_Producto" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="SP_Listar_Compras" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
         <EntityContainer Name="PracticaS12ModelStoreContainer">
           <EntitySet Name="Abonos" EntityType="Self.Abonos" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Principal" EntityType="Self.Principal" Schema="dbo" store:Type="Tables" />
@@ -89,7 +98,27 @@
             <End Role="Principal" EntitySet="Principal" />
             <End Role="Abonos" EntitySet="Abonos" />
           </AssociationSet>
+          <FunctionImport Name="SP_Abonar_Saldo">
+            <Parameter Name="Id_Compra" Mode="In" Type="Int64" />
+            <Parameter Name="abono" Mode="In" Type="Decimal" />
+          </FunctionImport>
+          <FunctionImport Name="SP_Buscar_Producto" ReturnType="Collection(Decimal)">
+            <Parameter Name="Id_Compra" Mode="In" Type="Int64" />
+          </FunctionImport>
+          <FunctionImport Name="SP_Consultar_Producto" ReturnType="Collection(PracticaS12Model.SP_Consultar_Producto_Result)" />
+          <FunctionImport Name="SP_Listar_Compras" ReturnType="Collection(PracticaS12Model.SP_Listar_Compras_Result)" />
         </EntityContainer>
+        <ComplexType Name="SP_Consultar_Producto_Result">
+          <Property Type="Int64" Name="Id_Compra" Nullable="false" />
+          <Property Type="Decimal" Name="Precio" Nullable="false" Precision="18" Scale="5" />
+          <Property Type="Decimal" Name="Saldo" Nullable="false" Precision="18" Scale="5" />
+          <Property Type="String" Name="Descripcion" Nullable="false" MaxLength="500" />
+          <Property Type="String" Name="Estado" Nullable="false" MaxLength="100" />
+        </ComplexType>
+        <ComplexType Name="SP_Listar_Compras_Result">
+          <Property Type="Int64" Name="Id_Compra" Nullable="false" />
+          <Property Type="String" Name="Descripcion" Nullable="false" MaxLength="500" />
+        </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -117,6 +146,27 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="SP_Abonar_Saldo" FunctionName="PracticaS12Model.Store.SP_Abonar_Saldo" />
+          <FunctionImportMapping FunctionImportName="SP_Buscar_Producto" FunctionName="PracticaS12Model.Store.SP_Buscar_Producto" />
+          <FunctionImportMapping FunctionImportName="SP_Consultar_Producto" FunctionName="PracticaS12Model.Store.SP_Consultar_Producto">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="PracticaS12Model.SP_Consultar_Producto_Result">
+                <ScalarProperty Name="Id_Compra" ColumnName="Id_Compra" />
+                <ScalarProperty Name="Precio" ColumnName="Precio" />
+                <ScalarProperty Name="Saldo" ColumnName="Saldo" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="SP_Listar_Compras" FunctionName="PracticaS12Model.Store.SP_Listar_Compras">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="PracticaS12Model.SP_Listar_Compras_Result">
+                <ScalarProperty Name="Id_Compra" ColumnName="Id_Compra" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>
